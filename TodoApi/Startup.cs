@@ -25,8 +25,10 @@ namespace TodoApi
         {
             services.AddMvc();
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql("User ID=zeucltxp;Password=wnri6tXqqfaxou9DBzqAH0eNTxOSCu2S;Server=balarama.db.elephantsql.com;Port=5432;Database=zeucltxp;Pooling=true;"));
-                    //Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(
+                    Configuration.GetConnectionString("DefaultConnection")
+                    ));
+            //"User ID=zeucltxp;Password=wnri6tXqqfaxou9DBzqAH0eNTxOSCu2S;Server=balarama.db.elephantsql.com;Port=5432;Database=zeucltxp;Pooling=true;"))
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
