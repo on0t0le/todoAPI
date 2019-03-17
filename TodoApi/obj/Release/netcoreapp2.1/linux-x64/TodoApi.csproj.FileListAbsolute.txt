@@ -1,0 +1,15 @@
+D:\CProjects\TodoApi\TodoApi\bin\Release\netcoreapp2.1\linux-x64\TodoApi
+D:\CProjects\TodoApi\TodoApi\bin\Release\netcoreapp2.1\linux-x64\TodoApi.deps.json
+D:\CProjects\TodoApi\TodoApi\bin\Release\netcoreapp2.1\linux-x64\TodoApi.runtimeconfig.json
+D:\CProjects\TodoApi\TodoApi\bin\Release\netcoreapp2.1\linux-x64\TodoApi.runtimeconfig.dev.json
+D:\CProjects\TodoApi\TodoApi\bin\Release\netcoreapp2.1\linux-x64\TodoApi.dll
+D:\CProjects\TodoApi\TodoApi\bin\Release\netcoreapp2.1\linux-x64\TodoApi.pdb
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.csprojAssemblyReference.cache
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.csproj.CoreCompileInputs.cache
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.RazorAssemblyInfo.cache
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.RazorAssemblyInfo.cs
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.AssemblyInfoInputs.cache
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.AssemblyInfo.cs
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.RazorTargetAssemblyInfo.cache
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.dll
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.pdb
