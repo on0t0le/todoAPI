@@ -12,3 +12,5 @@ D:\CProjects\TodoApi\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.AssemblyInfo.cs
 D:\CProjects\TodoApi\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.RazorTargetAssemblyInfo.cache
 D:\CProjects\TodoApi\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.dll
 D:\CProjects\TodoApi\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.pdb
+D:\CProjects\TodoApi\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.Properties.Resources.resources
+D:\CProjects\TodoApi\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.csproj.GenerateResource.cache

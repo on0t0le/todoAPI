@@ -23,6 +23,13 @@ namespace TodoApi
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => 
+            {
+                options.AddDefaultPolicy(builder =>
+               {
+                   builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+               });
+            });
             services.AddMvc();
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(
@@ -38,6 +45,8 @@ namespace TodoApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors();
 
             app.UseMvc();
 

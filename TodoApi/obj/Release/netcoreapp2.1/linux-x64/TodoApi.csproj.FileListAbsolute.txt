@@ -13,3 +13,5 @@ D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.Assembl
 D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.RazorTargetAssemblyInfo.cache
 D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.dll
 D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.pdb
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.Properties.Resources.resources
+D:\CProjects\TodoApi\TodoApi\obj\Release\netcoreapp2.1\linux-x64\TodoApi.csproj.GenerateResource.cache
