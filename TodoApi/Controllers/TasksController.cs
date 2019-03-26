@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
@@ -71,6 +72,30 @@ namespace TodoApi.Controllers
             _db.SaveChanges();
 
             return NoContent();
+        }
+
+        //[FromBody]JsonPatchDocument<SimpleTask> patchTask
+        [HttpPatch("{id}")]
+        public async Task<ActionResult> Patch([FromRoute]int id, JsonPatchDocument<SimpleTask> patchTask)
+        {
+            if (!ModelState.IsValid)
+            {
+                return new BadRequestObjectResult(ModelState);
+            }
+
+            var task = await _db.todos.FindAsync(id);
+
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            //Apply changes to speaker object
+            patchTask.ApplyTo(task);
+            await _db.SaveChangesAsync();
+
+            //update speaker in database and return updated object
+            return Ok(patchTask);            
         }
 
         // DELETE: /api/tasks/id
